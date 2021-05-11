@@ -1,5 +1,7 @@
+using System;
 using System.Threading;
 using NinjaPlus.Common;
+using NinjaPlus.Lib;
 using NinjaPlus.Models;
 using NinjaPlus.Pages;
 using NUnit.Framework;
@@ -28,13 +30,20 @@ namespace NinjaPlus.Tests
                 Status = "Disponível",
                 Year = 2002,
                 ReleaseDate = "01/05/2002",
-                Cast = {"Milla Jovovich", "Ali Larter", "Ian Glen", "Shawn Roberts"},
-                Plot = "A missão do esquadrão e da Alice é desligar a Rainha Vermelha e coletar dados sobre o incidente."
+                Cast = { "Milla Jovovich", "Ali Larter", "Ian Glen", "Shawn Roberts" },
+                Plot = "A missão do esquadrão e da Alice é desligar a Rainha Vermelha e coletar dados sobre o incidente.",
+                Cover = CoverPath() + "resident-evil-2002.jpg"
             };
+
+            Database.RemoveByTitle(movieData.Title);
 
             _movie.Add();
             _movie.Save(movieData);
-            Thread.Sleep(5000);
+
+            Assert.That(
+                _movie.HasMovie(movieData.Title),
+                $"Erro ao verificar se o filme {movieData.Title} foi cadastrado."
+            );
         }
     }
 }

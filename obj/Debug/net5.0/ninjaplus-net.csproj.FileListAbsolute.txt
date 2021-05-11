@@ -99,3 +99,5 @@
 /home/bruno/qaninja/ninjaplus-net/obj/Debug/net5.0/ninjaplus-net.genruntimeconfig.cache
 /home/bruno/qaninja/ninjaplus-net/bin/Debug/net5.0/Coypu.dll
 /home/bruno/qaninja/ninjaplus-net/bin/Debug/net5.0/WebDriver.dll
+/home/bruno/qaninja/ninjaplus-net/bin/Debug/net5.0/images/resident-evil-2002.jpg
+/home/bruno/qaninja/ninjaplus-net/bin/Debug/net5.0/Npgsql.dll

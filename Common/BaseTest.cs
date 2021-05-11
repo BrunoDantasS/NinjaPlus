@@ -27,6 +27,12 @@ namespace NinjaPlus.Common
             Browser.MaximiseWindow();
         }
 
+        public string CoverPath()
+        {
+            var outputPath = Environment.CurrentDirectory;
+            return outputPath + "/images/"; // "\\images\\" no Windows
+        }
+
         [TearDown]
         public void Finish()
         {

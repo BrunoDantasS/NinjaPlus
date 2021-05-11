@@ -1,5 +1,6 @@
 using System.Threading;
 using NinjaPlus.Common;
+using NinjaPlus.Models;
 using NinjaPlus.Pages;
 using NUnit.Framework;
 
@@ -21,8 +22,18 @@ namespace NinjaPlus.Tests
         [Test]
         public void ShouldSaveMovie()
         {
+            var movieData = new MovieModel()
+            {
+                Title = "Resident Evil",
+                Status = "Disponível",
+                Year = 2002,
+                ReleaseDate = "01/05/2002",
+                Cast = {"Milla Jovovich", "Ali Larter", "Ian Glen", "Shawn Roberts"},
+                Plot = "A missão do esquadrão e da Alice é desligar a Rainha Vermelha e coletar dados sobre o incidente."
+            };
+
             _movie.Add();
-            _movie.Save("Resident Evil", "Disponível");
+            _movie.Save(movieData);
             Thread.Sleep(5000);
         }
     }

@@ -1,4 +1,8 @@
+using System.Collections.Generic;
+using System.Threading;
 using Coypu;
+using NinjaPlus.Models;
+using OpenQA.Selenium;
 
 namespace NinjaPlus.Pages
 {
@@ -16,7 +20,7 @@ namespace NinjaPlus.Pages
             _browser.FindCss(".movie-add").Click();
         }
 
-        public void SelectStatus(string status)
+        private void SelectStatus(string status)
         {
             // _browser.Select("OPÇÃO_DROPDOWN").From("SELETOR_DO_ELEMENTO"); *Forma tradicional de selecionar DropDown 
             _browser.FindCss("input[placeholder=Status]").Click();
@@ -24,10 +28,30 @@ namespace NinjaPlus.Pages
             option.Click();
         }
 
-        public void Save(string title, string status)
+        private void InputCast(List<string> cast)
         {
-            _browser.FindCss("input[name=title]").SendKeys(title);
-            SelectStatus(status);
+            var element = _browser.FindCss("input[placeholder$=ator]");
+            foreach(var actor in cast)
+            {
+                element.SendKeys(actor);
+                element.SendKeys(Keys.Tab); // Simular tecla Tab
+                Thread.Sleep(500); //Thinking Time
+            }
+        }
+
+        public void Save(MovieModel movie)
+        {
+            _browser.FindCss("input[name=title]").SendKeys(movie.Title);
+            SelectStatus(movie.Status);
+
+            _browser.FindCss("input[name=year]").SendKeys(movie.Year.ToString());
+
+            _browser.FindCss("input[name=release_date]").SendKeys(movie.ReleaseDate);
+
+            InputCast(movie.Cast);
+
+            _browser.FindCss("textarea[name=overview]").SendKeys(movie.Plot);
+
             
         }
     }

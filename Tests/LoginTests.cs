@@ -1,42 +1,19 @@
-using System;
-using Coypu;
-using Coypu.Drivers.Selenium;
+using NinjaPlus.Common;
 using NinjaPlus.Pages;
 using NUnit.Framework;
 
 namespace NinjaPlus.Tests
 {
-    public class LoginTests
+    public class LoginTests : BaseTest
     {
-        public BrowserSession browser;
         public LoginPage _login;
         public Sidebar _side;
 
         [SetUp]
-        public void Setup()
+        public void Start()
         {
-            var configs = new SessionConfiguration 
-            {
-                AppHost = "http://ninjaplus-web",
-                Port = 5000,
-                SSL = false,
-                Driver = typeof(SeleniumWebDriver),
-                Browser = Coypu.Drivers.Browser.Chrome,
-                Timeout = TimeSpan.FromSeconds(10)
-            };
-
-            browser = new BrowserSession(configs);
-
-            browser.MaximiseWindow();
-
-            _login = new LoginPage(browser);
-            _side = new Sidebar(browser);
-        }
-
-        [TearDown]
-        public void Finish()
-        {
-            browser.Dispose();
+            _login = new LoginPage(Browser);
+            _side = new Sidebar(Browser);
         }
 
         [Test]

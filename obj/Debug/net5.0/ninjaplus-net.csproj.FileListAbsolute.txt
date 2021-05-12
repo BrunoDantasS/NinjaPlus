@@ -101,3 +101,13 @@
 /home/bruno/qaninja/ninjaplus-net/bin/Debug/net5.0/WebDriver.dll
 /home/bruno/qaninja/ninjaplus-net/bin/Debug/net5.0/images/resident-evil-2002.jpg
 /home/bruno/qaninja/ninjaplus-net/bin/Debug/net5.0/Npgsql.dll
+/home/bruno/qaninja/ninjaplus-net/bin/Debug/net5.0/Data/data.sql
+/home/bruno/qaninja/ninjaplus-net/bin/Debug/net5.0/config.json
+/home/bruno/qaninja/ninjaplus-net/bin/Debug/net5.0/Microsoft.Extensions.Configuration.dll
+/home/bruno/qaninja/ninjaplus-net/bin/Debug/net5.0/Microsoft.Extensions.Configuration.Abstractions.dll
+/home/bruno/qaninja/ninjaplus-net/bin/Debug/net5.0/Microsoft.Extensions.Configuration.FileExtensions.dll
+/home/bruno/qaninja/ninjaplus-net/bin/Debug/net5.0/Microsoft.Extensions.Configuration.Json.dll
+/home/bruno/qaninja/ninjaplus-net/bin/Debug/net5.0/Microsoft.Extensions.FileProviders.Abstractions.dll
+/home/bruno/qaninja/ninjaplus-net/bin/Debug/net5.0/Microsoft.Extensions.FileProviders.Physical.dll
+/home/bruno/qaninja/ninjaplus-net/bin/Debug/net5.0/Microsoft.Extensions.FileSystemGlobbing.dll
+/home/bruno/qaninja/ninjaplus-net/bin/Debug/net5.0/Microsoft.Extensions.Primitives.dll

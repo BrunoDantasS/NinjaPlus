@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Linq;
 using System.Threading;
 using Coypu;
 using NinjaPlus.Models;
@@ -63,6 +64,22 @@ namespace NinjaPlus.Pages
             UploadCover(movie.Cover);
 
             _browser.ClickButton("Cadastrar");
+        }
+
+        public void Search(string value)
+        {
+            _browser.FindCss("input[placeholder^=Pesquisar]").SendKeys(value);
+            _browser.FindId("search-movie").Click();
+        }
+
+        public int CountMovie()
+        {
+            return _browser.FindAllCss("table tbody tr").Count();
+        }
+
+        public string SearchAlert()
+        {
+            return _browser.FindCss(".alert-dark").Text;
         }
 
         public bool HasMovie(string title)

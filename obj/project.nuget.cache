@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "/WDk6s+J+oJlO01L3dmiCIEje9p/WuUQScoH3QxzKqSQp6AtG1Ld7CYQ139GnZiMDeScdMM8rvahHnJ/RbOCeg==",
+  "dgSpecHash": "xI822K/TKdrELF1ryKsMYcBFeCUnKBAIlkEOOyezW/3KaIg/FJTjQcuCm3vqlvgAQ+GIlzCxIOktu6B8ZzMLzw==",
   "success": true,
   "projectFilePath": "/home/bruno/qaninja/ninjaplus-net/ninjaplus-net.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,14 @@
     "/home/bruno/.nuget/packages/microsoft.codecoverage/16.5.0/microsoft.codecoverage.16.5.0.nupkg.sha512",
     "/home/bruno/.nuget/packages/microsoft.csharp/4.3.0/microsoft.csharp.4.3.0.nupkg.sha512",
     "/home/bruno/.nuget/packages/microsoft.dotnet.internalabstractions/1.0.0/microsoft.dotnet.internalabstractions.1.0.0.nupkg.sha512",
+    "/home/bruno/.nuget/packages/microsoft.extensions.configuration/3.0.1/microsoft.extensions.configuration.3.0.1.nupkg.sha512",
+    "/home/bruno/.nuget/packages/microsoft.extensions.configuration.abstractions/3.0.1/microsoft.extensions.configuration.abstractions.3.0.1.nupkg.sha512",
+    "/home/bruno/.nuget/packages/microsoft.extensions.configuration.fileextensions/3.0.1/microsoft.extensions.configuration.fileextensions.3.0.1.nupkg.sha512",
+    "/home/bruno/.nuget/packages/microsoft.extensions.configuration.json/3.0.1/microsoft.extensions.configuration.json.3.0.1.nupkg.sha512",
+    "/home/bruno/.nuget/packages/microsoft.extensions.fileproviders.abstractions/3.0.1/microsoft.extensions.fileproviders.abstractions.3.0.1.nupkg.sha512",
+    "/home/bruno/.nuget/packages/microsoft.extensions.fileproviders.physical/3.0.1/microsoft.extensions.fileproviders.physical.3.0.1.nupkg.sha512",
+    "/home/bruno/.nuget/packages/microsoft.extensions.filesystemglobbing/3.0.1/microsoft.extensions.filesystemglobbing.3.0.1.nupkg.sha512",
+    "/home/bruno/.nuget/packages/microsoft.extensions.primitives/3.0.1/microsoft.extensions.primitives.3.0.1.nupkg.sha512",
     "/home/bruno/.nuget/packages/microsoft.net.test.sdk/16.5.0/microsoft.net.test.sdk.16.5.0.nupkg.sha512",
     "/home/bruno/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "/home/bruno/.nuget/packages/microsoft.netcore.targets/1.1.0/microsoft.netcore.targets.1.1.0.nupkg.sha512",

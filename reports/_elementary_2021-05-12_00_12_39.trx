@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="ef10b2d9-67d5-4f6d-b655-ac83163fba82" name="@elementary 2021-05-12 00:12:39" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2021-05-12T00:12:39.1432777-03:00" queuing="2021-05-12T00:12:39.1432777-03:00" start="2021-05-12T00:12:34.7558497-03:00" finish="2021-05-12T00:13:24.5772197-03:00" />
+  <TestSettings name="default" id="63db4f84-b3d2-47da-9fb2-78d956a672a9">
+    <Deployment runDeploymentRoot="_elementary_2021-05-12_00_12_39" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="413124ce-2450-4ecb-a66c-63725d6746e7" testId="cb89330b-0c80-a6f9-220c-6c663eef755d" testName="ShouldFindMovies" computerName="elementary" duration="00:00:06.6787120" startTime="2021-05-12T00:13:11.0000000-03:00" endTime="2021-05-12T00:13:18.0000000-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="413124ce-2450-4ecb-a66c-63725d6746e7">
+      <Output>
+        <StdOut>Connection refused [::ffff:127.0.0.1]:41907 (localhost:41907)
+Connection refused [::ffff:127.0.0.1]:41907 (localhost:41907)
+Connection refused [::ffff:127.0.0.1]:41907 (localhost:41907)
+Connection refused [::ffff:127.0.0.1]:41907 (localhost:41907)
+Connection refused [::ffff:127.0.0.1]:41907 (localhost:41907)
+Connection refused [::ffff:127.0.0.1]:41907 (localhost:41907)</StdOut>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="elementary/0-1013.png" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="328a72f3-1611-4e63-a8b9-7c99602cfc8c" testId="22dfd544-bde5-8cfd-bf12-5881659742a5" testName="ShouldSeeAlertMessage(&quot;papito@ninjaplus.com&quot;,&quot;&quot;,&quot;Opps. Cadê a senha?&quot;)" computerName="elementary" duration="00:00:03.1355000" startTime="2021-05-12T00:12:45.0000000-03:00" endTime="2021-05-12T00:12:48.0000000-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="328a72f3-1611-4e63-a8b9-7c99602cfc8c">
+      <Output>
+        <StdOut>Connection refused [::ffff:127.0.0.1]:44595 (localhost:44595)
+Connection refused [::ffff:127.0.0.1]:44595 (localhost:44595)
+Connection refused [::ffff:127.0.0.1]:44595 (localhost:44595)
+Connection refused [::ffff:127.0.0.1]:44595 (localhost:44595)</StdOut>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="elementary/0-1005.png" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="c68fb2d4-8616-40ba-811a-e285609f8662" testId="7e213e8b-188b-c423-5e19-e3a32b72d1b4" testName="ShouldBeHaveTitle" computerName="elementary" duration="00:00:02.4961380" startTime="2021-05-12T00:12:51.0000000-03:00" endTime="2021-05-12T00:12:53.0000000-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c68fb2d4-8616-40ba-811a-e285609f8662">
+      <Output>
+        <StdOut>Connection refused [::ffff:127.0.0.1]:34935 (localhost:34935)
+Connection refused [::ffff:127.0.0.1]:34935 (localhost:34935)
+Connection refused [::ffff:127.0.0.1]:34935 (localhost:34935)
+Connection refused [::ffff:127.0.0.1]:34935 (localhost:34935)</StdOut>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="elementary/0-1008.png" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="5ce6f2be-d29b-4228-9b8c-7acaed13980f" testId="802b02be-524c-cf5a-8153-696af31aae41" testName="ShouldSeeLoggedUser" computerName="elementary" duration="00:00:03.1912620" startTime="2021-05-12T00:12:48.0000000-03:00" endTime="2021-05-12T00:12:51.0000000-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5ce6f2be-d29b-4228-9b8c-7acaed13980f">
+      <Output>
+        <StdOut>Connection refused [::ffff:127.0.0.1]:45729 (localhost:45729)
+Connection refused [::ffff:127.0.0.1]:45729 (localhost:45729)
+Connection refused [::ffff:127.0.0.1]:45729 (localhost:45729)
+Connection refused [::ffff:127.0.0.1]:45729 (localhost:45729)
+Connection refused [::ffff:127.0.0.1]:45729 (localhost:45729)
+Connection refused [::ffff:127.0.0.1]:45729 (localhost:45729)
+Connection refused [::ffff:127.0.0.1]:45729 (localhost:45729)</StdOut>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="elementary/0-1001.png" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="83e8dc4c-18b4-4858-82b1-dce78cddd725" testId="31986b15-f3fd-d980-a55b-a29e3d2a1156" testName="ShouldDisplayNoMovieFound" computerName="elementary" duration="00:00:06.1861560" startTime="2021-05-12T00:13:05.0000000-03:00" endTime="2021-05-12T00:13:11.0000000-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="83e8dc4c-18b4-4858-82b1-dce78cddd725">
+      <Output>
+        <StdOut>Connection refused [::ffff:127.0.0.1]:38829 (localhost:38829)
+Connection refused [::ffff:127.0.0.1]:38829 (localhost:38829)
+Connection refused [::ffff:127.0.0.1]:38829 (localhost:38829)
+Connection refused [::ffff:127.0.0.1]:38829 (localhost:38829)</StdOut>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="elementary/0-1014.png" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="d0b45360-643d-4cdc-b88c-5071cd8ce45b" testId="29e8fd25-573c-08bd-c249-e2d1c2ce1ee9" testName="ShouldSeeAlertMessage(&quot;404@ninjaplus.com&quot;,&quot;pwd123&quot;,&quot;Usuário e/ou senha inválidos&quot;)" computerName="elementary" duration="00:00:02.9247169" startTime="2021-05-12T00:12:39.0000000-03:00" endTime="2021-05-12T00:12:42.0000000-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d0b45360-643d-4cdc-b88c-5071cd8ce45b">
+      <Output>
+        <StdOut>Connection refused [::ffff:127.0.0.1]:40307 (localhost:40307)</StdOut>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="elementary/0-1003.png" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="5430a91b-90f7-4fb4-9b7d-970e81549f69" testId="9ae4da9f-6abe-ea5a-15b5-f66d2807c562" testName="ShouldSaveMovie" computerName="elementary" duration="00:00:11.5406739" startTime="2021-05-12T00:12:53.0000000-03:00" endTime="2021-05-12T00:13:05.0000000-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5430a91b-90f7-4fb4-9b7d-970e81549f69">
+      <Output>
+        <StdOut>Connection refused [::ffff:127.0.0.1]:42479 (localhost:42479)
+Connection refused [::ffff:127.0.0.1]:42479 (localhost:42479)
+Connection refused [::ffff:127.0.0.1]:42479 (localhost:42479)
+Connection refused [::ffff:127.0.0.1]:42479 (localhost:42479)
+Connection refused [::ffff:127.0.0.1]:42479 (localhost:42479)
+Connection refused [::ffff:127.0.0.1]:42479 (localhost:42479)</StdOut>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="elementary/0-1010.png" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="2f25a272-94a4-47c3-95a7-12c061264295" testId="dc9f1653-db10-9032-848f-52bba0dc0a74" testName="ShouldSeeAlertMessage(&quot;papito@ninjaplus.com&quot;,&quot;123456&quot;,&quot;Usuário e/ou senha inválidos&quot;)" computerName="elementary" duration="00:00:03.6256740" startTime="2021-05-12T00:12:35.0000000-03:00" endTime="2021-05-12T00:12:39.0000000-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2f25a272-94a4-47c3-95a7-12c061264295">
+      <ResultFiles>
+        <ResultFile path="elementary/0-1002.png" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="b8ef2502-c291-4b2d-8ae4-46638e921922" testId="5694b3c2-158f-44de-4ca4-bab979df83a4" testName="ShouldFindUniqueMovie" computerName="elementary" duration="00:00:06.1554450" startTime="2021-05-12T00:13:18.0000000-03:00" endTime="2021-05-12T00:13:24.0000000-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b8ef2502-c291-4b2d-8ae4-46638e921922">
+      <Output>
+        <StdOut>Connection refused [::ffff:127.0.0.1]:38525 (localhost:38525)
+Connection refused [::ffff:127.0.0.1]:38525 (localhost:38525)
+Connection refused [::ffff:127.0.0.1]:38525 (localhost:38525)
+Connection refused [::ffff:127.0.0.1]:38525 (localhost:38525)</StdOut>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="elementary/0-1012.png" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="655defd6-5b6c-4d5f-b3a0-b05e584716ae" testId="cd1aed11-7683-a99d-c0fa-82a189fe1661" testName="ShouldSeeAlertMessage(&quot;&quot;,&quot;pwd123&quot;,&quot;Opps. Cadê o email?&quot;)" computerName="elementary" duration="00:00:03.0819830" startTime="2021-05-12T00:12:42.0000000-03:00" endTime="2021-05-12T00:12:45.0000000-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="655defd6-5b6c-4d5f-b3a0-b05e584716ae">
+      <Output>
+        <StdOut>Connection refused [::ffff:127.0.0.1]:43593 (localhost:43593)
+Connection refused [::ffff:127.0.0.1]:43593 (localhost:43593)
+Connection refused [::ffff:127.0.0.1]:43593 (localhost:43593)
+Connection refused [::ffff:127.0.0.1]:43593 (localhost:43593)
+Connection refused [::ffff:127.0.0.1]:43593 (localhost:43593)</StdOut>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="elementary/0-1004.png" />
+      </ResultFiles>
+    </UnitTestResult>
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="ShouldBeHaveTitle" storage="/home/bruno/qaninja/ninjaplus-net/bin/debug/net5.0/ninjaplus-net.dll" id="7e213e8b-188b-c423-5e19-e3a32b72d1b4">
+      <Execution id="c68fb2d4-8616-40ba-811a-e285609f8662" />
+      <TestMethod codeBase="/home/bruno/qaninja/ninjaplus-net/bin/Debug/net5.0/ninjaplus-net.dll" adapterTypeName="executor://nunit3testexecutor/" className="NinjaPlus.Tests.OnAirTest" name="ShouldBeHaveTitle" />
+    </UnitTest>
+    <UnitTest name="ShouldFindUniqueMovie" storage="/home/bruno/qaninja/ninjaplus-net/bin/debug/net5.0/ninjaplus-net.dll" id="5694b3c2-158f-44de-4ca4-bab979df83a4">
+      <Execution id="b8ef2502-c291-4b2d-8ae4-46638e921922" />
+      <TestMethod codeBase="/home/bruno/qaninja/ninjaplus-net/bin/Debug/net5.0/ninjaplus-net.dll" adapterTypeName="executor://nunit3testexecutor/" className="NinjaPlus.Tests.SearchMovieTests" name="ShouldFindUniqueMovie" />
+    </UnitTest>
+    <UnitTest name="ShouldSaveMovie" storage="/home/bruno/qaninja/ninjaplus-net/bin/debug/net5.0/ninjaplus-net.dll" id="9ae4da9f-6abe-ea5a-15b5-f66d2807c562">
+      <Execution id="5430a91b-90f7-4fb4-9b7d-970e81549f69" />
+      <TestMethod codeBase="/home/bruno/qaninja/ninjaplus-net/bin/Debug/net5.0/ninjaplus-net.dll" adapterTypeName="executor://nunit3testexecutor/" className="NinjaPlus.Tests.SaveMovieTest" name="ShouldSaveMovie" />
+    </UnitTest>
+    <UnitTest name="ShouldSeeAlertMessage(&quot;404@ninjaplus.com&quot;,&quot;pwd123&quot;,&quot;Usuário e/ou senha inválidos&quot;)" storage="/home/bruno/qaninja/ninjaplus-net/bin/debug/net5.0/ninjaplus-net.dll" id="29e8fd25-573c-08bd-c249-e2d1c2ce1ee9">
+      <Execution id="d0b45360-643d-4cdc-b88c-5071cd8ce45b" />
+      <TestMethod codeBase="/home/bruno/qaninja/ninjaplus-net/bin/Debug/net5.0/ninjaplus-net.dll" adapterTypeName="executor://nunit3testexecutor/" className="NinjaPlus.Tests.LoginTests" name="ShouldSeeAlertMessage(&quot;404@ninjaplus.com&quot;,&quot;pwd123&quot;,&quot;Usuário e/ou senha inválidos&quot;)" />
+    </UnitTest>
+    <UnitTest name="ShouldDisplayNoMovieFound" storage="/home/bruno/qaninja/ninjaplus-net/bin/debug/net5.0/ninjaplus-net.dll" id="31986b15-f3fd-d980-a55b-a29e3d2a1156">
+      <Execution id="83e8dc4c-18b4-4858-82b1-dce78cddd725" />
+      <TestMethod codeBase="/home/bruno/qaninja/ninjaplus-net/bin/Debug/net5.0/ninjaplus-net.dll" adapterTypeName="executor://nunit3testexecutor/" className="NinjaPlus.Tests.SearchMovieTests" name="ShouldDisplayNoMovieFound" />
+    </UnitTest>
+    <UnitTest name="ShouldSeeAlertMessage(&quot;papito@ninjaplus.com&quot;,&quot;123456&quot;,&quot;Usuário e/ou senha inválidos&quot;)" storage="/home/bruno/qaninja/ninjaplus-net/bin/debug/net5.0/ninjaplus-net.dll" id="dc9f1653-db10-9032-848f-52bba0dc0a74">
+      <Execution id="2f25a272-94a4-47c3-95a7-12c061264295" />
+      <TestMethod codeBase="/home/bruno/qaninja/ninjaplus-net/bin/Debug/net5.0/ninjaplus-net.dll" adapterTypeName="executor://nunit3testexecutor/" className="NinjaPlus.Tests.LoginTests" name="ShouldSeeAlertMessage(&quot;papito@ninjaplus.com&quot;,&quot;123456&quot;,&quot;Usuário e/ou senha inválidos&quot;)" />
+    </UnitTest>
+    <UnitTest name="ShouldFindMovies" storage="/home/bruno/qaninja/ninjaplus-net/bin/debug/net5.0/ninjaplus-net.dll" id="cb89330b-0c80-a6f9-220c-6c663eef755d">
+      <Execution id="413124ce-2450-4ecb-a66c-63725d6746e7" />
+      <TestMethod codeBase="/home/bruno/qaninja/ninjaplus-net/bin/Debug/net5.0/ninjaplus-net.dll" adapterTypeName="executor://nunit3testexecutor/" className="NinjaPlus.Tests.SearchMovieTests" name="ShouldFindMovies" />
+    </UnitTest>
+    <UnitTest name="ShouldSeeLoggedUser" storage="/home/bruno/qaninja/ninjaplus-net/bin/debug/net5.0/ninjaplus-net.dll" id="802b02be-524c-cf5a-8153-696af31aae41">
+      <Execution id="5ce6f2be-d29b-4228-9b8c-7acaed13980f" />
+      <TestMethod codeBase="/home/bruno/qaninja/ninjaplus-net/bin/Debug/net5.0/ninjaplus-net.dll" adapterTypeName="executor://nunit3testexecutor/" className="NinjaPlus.Tests.LoginTests" name="ShouldSeeLoggedUser" />
+    </UnitTest>
+    <UnitTest name="ShouldSeeAlertMessage(&quot;papito@ninjaplus.com&quot;,&quot;&quot;,&quot;Opps. Cadê a senha?&quot;)" storage="/home/bruno/qaninja/ninjaplus-net/bin/debug/net5.0/ninjaplus-net.dll" id="22dfd544-bde5-8cfd-bf12-5881659742a5">
+      <Execution id="328a72f3-1611-4e63-a8b9-7c99602cfc8c" />
+      <TestMethod codeBase="/home/bruno/qaninja/ninjaplus-net/bin/Debug/net5.0/ninjaplus-net.dll" adapterTypeName="executor://nunit3testexecutor/" className="NinjaPlus.Tests.LoginTests" name="ShouldSeeAlertMessage(&quot;papito@ninjaplus.com&quot;,&quot;&quot;,&quot;Opps. Cadê a senha?&quot;)" />
+    </UnitTest>
+    <UnitTest name="ShouldSeeAlertMessage(&quot;&quot;,&quot;pwd123&quot;,&quot;Opps. Cadê o email?&quot;)" storage="/home/bruno/qaninja/ninjaplus-net/bin/debug/net5.0/ninjaplus-net.dll" id="cd1aed11-7683-a99d-c0fa-82a189fe1661">
+      <Execution id="655defd6-5b6c-4d5f-b3a0-b05e584716ae" />
+      <TestMethod codeBase="/home/bruno/qaninja/ninjaplus-net/bin/Debug/net5.0/ninjaplus-net.dll" adapterTypeName="executor://nunit3testexecutor/" className="NinjaPlus.Tests.LoginTests" name="ShouldSeeAlertMessage(&quot;&quot;,&quot;pwd123&quot;,&quot;Opps. Cadê o email?&quot;)" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="cb89330b-0c80-a6f9-220c-6c663eef755d" executionId="413124ce-2450-4ecb-a66c-63725d6746e7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="22dfd544-bde5-8cfd-bf12-5881659742a5" executionId="328a72f3-1611-4e63-a8b9-7c99602cfc8c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7e213e8b-188b-c423-5e19-e3a32b72d1b4" executionId="c68fb2d4-8616-40ba-811a-e285609f8662" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="802b02be-524c-cf5a-8153-696af31aae41" executionId="5ce6f2be-d29b-4228-9b8c-7acaed13980f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="31986b15-f3fd-d980-a55b-a29e3d2a1156" executionId="83e8dc4c-18b4-4858-82b1-dce78cddd725" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="29e8fd25-573c-08bd-c249-e2d1c2ce1ee9" executionId="d0b45360-643d-4cdc-b88c-5071cd8ce45b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9ae4da9f-6abe-ea5a-15b5-f66d2807c562" executionId="5430a91b-90f7-4fb4-9b7d-970e81549f69" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dc9f1653-db10-9032-848f-52bba0dc0a74" executionId="2f25a272-94a4-47c3-95a7-12c061264295" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5694b3c2-158f-44de-4ca4-bab979df83a4" executionId="b8ef2502-c291-4b2d-8ae4-46638e921922" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cd1aed11-7683-a99d-c0fa-82a189fe1661" executionId="655defd6-5b6c-4d5f-b3a0-b05e584716ae" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Resultados que não estão em uma lista" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Todos os resultados carregados" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="10" executed="10" passed="10" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>NUnit Adapter 3.16.1.0: Test execution started
+Running all tests in /home/bruno/qaninja/ninjaplus-net/bin/Debug/net5.0/ninjaplus-net.dll
+   NUnit3TestExecutor converted 10 of 10 NUnit test cases
+NUnit Adapter 3.16.1.0: Test execution complete
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>

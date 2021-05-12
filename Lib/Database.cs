@@ -1,3 +1,5 @@
+using System;
+using System.IO;
 using Npgsql;
 
 namespace NinjaPlus.Lib
@@ -11,6 +13,17 @@ namespace NinjaPlus.Lib
             connection.Open();
 
             return connection;
+        }
+
+        public static void InsertMovies()
+        {
+            var dataSql = Environment.CurrentDirectory + "/Data/data.sql";
+            var query = File.ReadAllText(dataSql);
+
+            var command = new NpgsqlCommand(query, Connection());
+            command.ExecuteReader();
+
+            Connection().Close();
         }
 
         public static void RemoveByTitle(string title)
